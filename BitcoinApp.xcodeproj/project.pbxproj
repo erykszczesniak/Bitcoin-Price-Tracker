@@ -12,7 +12,7 @@
 		7A043EE5249622E8009A0763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A043EE3249622E8009A0763 /* Main.storyboard */; };
 		7A043EE7249622EC009A0763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A043EE6249622EC009A0763 /* Assets.xcassets */; };
 		7A043EEA249622EC009A0763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A043EE8249622EC009A0763 /* LaunchScreen.storyboard */; };
-		7AD6AC1C2496336300F34EF6 /* BitcoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6AC1B2496336300F34EF6 /* BitcoinViewController.swift */; };
+		7AD6AC1E24963FE800F34EF6 /* BitcoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6AC1D24963FE800F34EF6 /* BitcoinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		7A043EE6249622EC009A0763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A043EE9249622EC009A0763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A043EEB249622EC009A0763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AD6AC1B2496336300F34EF6 /* BitcoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BitcoinViewController.swift; path = ../../BitcoinViewController.swift; sourceTree = "<group>"; };
+		7AD6AC1D24963FE800F34EF6 /* BitcoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitcoinViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				7A043EDD249622E8009A0763 /* AppDelegate.swift */,
 				7A043EDF249622E8009A0763 /* SceneDelegate.swift */,
-				7AD6AC1B2496336300F34EF6 /* BitcoinViewController.swift */,
 				7A043EE3249622E8009A0763 /* Main.storyboard */,
+				7AD6AC1D24963FE800F34EF6 /* BitcoinViewController.swift */,
 				7A043EE6249622EC009A0763 /* Assets.xcassets */,
 				7A043EE8249622EC009A0763 /* LaunchScreen.storyboard */,
 				7A043EEB249622EC009A0763 /* Info.plist */,
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A043EDE249622E8009A0763 /* AppDelegate.swift in Sources */,
-				7AD6AC1C2496336300F34EF6 /* BitcoinViewController.swift in Sources */,
+				7AD6AC1E24963FE800F34EF6 /* BitcoinViewController.swift in Sources */,
 				7A043EE0249622E8009A0763 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
