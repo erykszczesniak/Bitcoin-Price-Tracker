@@ -60,8 +60,17 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Bitcoin Price Tracker" id="IKE-rD-MaD">
-                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="YPM-bx-ftq"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="YPM-bx-ftq">
+                            <connections>
+                                <action selector="refresh:" destination="BYZ-38-t0r" id="EJ7-HM-aei"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="euroLabel" destination="m13-hK-nux" id="EX1-VO-98K"/>
+                        <outlet property="usdLabel" destination="MsH-dG-xJV" id="Y91-ID-ARx"/>
+                        <outlet property="yenLabel" destination="lTH-Wc-oqJ" id="CK1-MS-qZo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
